@@ -30,7 +30,8 @@ const Schedule = () => {
       Events: "Men's Individual",
       "Round/Pool": "Round 3",
       Venue: "Indira Gandhi International Sports Stadium",
-    }, {
+    },
+    {
       Time: { logo: "photos/schedule-logo-1.png", time: "08:30:00" },
       Sports: "Golf",
       Events: "Men's Individual",
@@ -46,9 +47,11 @@ const Schedule = () => {
     },
   ];
   return (
-    <div className="bg-background-secondary p-20">
+    <div className="bg-background-secondary md:p-16">
       <div className="flex justify-between flex-col md:flex-row">
-        <h1 className=" text-gradient-schedule text-8xl">SCHEDULE</h1>
+        <h1 className=" text-gradient-schedule text-6xl md:text-8xl">
+          SCHEDULE
+        </h1>
         <div className="flex gap-10 items-center">
           <select class="block w-44 px-4  h-12 text-gray-700 bg-white border border-gray-300 rounded-xl focus:outline-none focus:border-blue-500">
             <option value="">Select Date</option>
@@ -78,13 +81,13 @@ const Schedule = () => {
         <tbody>
           {tableBodyData.map((ele, ind) => (
             <tr key={`${ele}-${ind + 1}`} className="">
-              <th className="flex font-normal">
+              <th className="flex flex-col md:flex-row font-normal">
                 <img
                   src={ele.Time.logo}
                   alt={ele.Sports}
                   className="w-12 py-2"
                 />
-                <p className="text-center py-4 px-2 ">{ele.Time.time}</p>
+                <p className="text-center md:py-4 md:px-2 ">{ele.Time.time}</p>
               </th>
               <th className="font-normal">{ele.Sports}</th>
               <th className="font-normal">{ele.Events}</th>

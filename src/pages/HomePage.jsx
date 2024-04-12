@@ -6,12 +6,12 @@ import Schedule from "../components/Schedule";
 import TheMascot from "../components/TheMascot";
 import Conversation from "../components/Conversation";
 import Sports from "../components/Sports";
+import FollowUs from "../components/FollowUs";
 
 const HomePage = () => {
   return (
     <div>
       <div className="bg-background-secondary">
-        {/* <Navbar /> */}
         <div className="">
           <img
             src="photos/top-photo.svg"
@@ -23,7 +23,8 @@ const HomePage = () => {
             alt="Top header 2"
             className="rounded-bl-[100px] md:rounded-bl-[200px] absolute top-0 left-0"
           />
-          <div></div>
+          <Navbar />
+          {/* <div></div> */}
         </div>
         <HeaderBoxes />
       </div>
@@ -32,6 +33,7 @@ const HomePage = () => {
       <TheMascot />
       <Conversation />
       <Sports />
+      <FollowUs />
     </div>
   );
 };

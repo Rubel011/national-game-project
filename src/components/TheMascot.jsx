@@ -2,10 +2,10 @@ import React, { memo } from "react";
 
 const TheMascot = () => {
   return (
-    <div className="m-28 relative flex gap-20">
+    <div className="m-1 md:m-36 relative flex flex-col md:flex-row gap-20">
       <div>
         <p className="font-normal text-4xl text-primary">HI!, I AM</p>
-        <h1 className="font-bold text-8xl text-primary max-w-xs my-5">
+        <h1 className="font-bold text-6xl md:text-8xl text-primary max-w-xs my-5">
           THE MASCOT
         </h1>
         <p className="">

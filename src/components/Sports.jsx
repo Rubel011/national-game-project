@@ -9,7 +9,7 @@ const Sports = () => {
           VIEW MORE
         </button>
       </div>
-      <div className="grid grid-cols-6 gap-7">
+      <div className="grid grid-cols-3 md:grid-cols-6 gap-7">
         {Array(12)
           .fill(0)
           .map((ele) => (

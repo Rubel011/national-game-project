@@ -2,11 +2,13 @@ import React, { memo } from "react";
 
 const Conversation = () => {
   return (
-    <div className="flex bg-background-secondary flex-col md:flex-row">
-      <div className="p-5 md:p-10 my-auto">
+    <div className="grid bg-background-secondary grid-cols-1 md:grid-cols-2 p-1 md:rounded-tr-[235px]">
+      <div className="p-2 md:p-10 my-auto">
         <div className="mb-10">
           <p>Join the</p>
-          <h1 className="font-bold md:text-8xl text-primary">Conversation</h1>
+          <h1 className="font-bold text-3xl md:text-8xl text-primary">
+            Conversation
+          </h1>
           <p className="font-light text-3xl my-2">#uttrakhandgames2024</p>
         </div>
         <div>
