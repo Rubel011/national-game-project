@@ -51,9 +51,7 @@ const HeaderBoxes = () => {
             key={`item-${ind}`}
             className="flex flex-col md:flex-row p-5 items-start border-l-2 border-border"
           >
-            {/* <div className=""> */}
             <img src={ele.imgUrl} alt="Box Images" className="w-56 pt-3" />
-            {/* </div> */}
             <div className="flex flex-row md:flex-col p-5 md:pt-0 gap-3">
               <h1 className="text-2xl font-semibold">{ele.title}</h1>
               <p className="text-base font-normal text-muted">{ele.subTitle}</p>

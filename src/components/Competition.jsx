@@ -4,7 +4,7 @@ const Competition = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2">
       <div>
-        <h1 className="font-bold text-6xl md:text-8xl text-primary">
+        <h1 className="font-bold text-5xl md:text-8xl text-primary">
           COMPETITION ZONE
         </h1>
         <div>

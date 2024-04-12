@@ -25,7 +25,6 @@ const HomePage = () => {
             className="rounded-bl-[100px] md:rounded-bl-[200px] absolute top-0 left-0"
           />
           <Navbar />
-          {/* <div></div> */}
         </div>
         <HeaderBoxes />
       </div>

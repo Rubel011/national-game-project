@@ -3,14 +3,14 @@ import { IoReorderThreeOutline } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <nav className="absolute top-0 left-0 w-full md:px-20 md:py-10">
+    <nav className="absolute top-0 left-0 w-full px-3 py-3 md:px-20 md:py-10">
       <div className="flex justify-between items-center">
         <div className="flex">
           <IoReorderThreeOutline className="bg-background rounded-full w-12 h-12 p-2" />
           <p className="text-background-secondary my-3 mx-2">Menu</p>
         </div>
         <img src="photos/navbar-logo.png" alt="" className="w-28" />
-        <div className="flex gap-5 text-background-secondary">
+        <div className="hidden sm:static sm:flex gap-5 text-background-secondary">
           <div className="flex gap-2 items-center">
             <img src="photos/ticket-logo.png" alt="" className="w-5 h-5" />
             <p>Ticketing</p>
@@ -30,7 +30,7 @@ const Navbar = () => {
           />
         </div>
       </div>
-      <div className="flex justify-around rounded-full bg-background-secondary py-5 px-10 w-1/2 mx-auto mt-20">
+      <div className="flex justify-around rounded-full bg-background-secondary py-5 px-2 sm:px-10 sm:w-1/2 mx-auto mt-10 sm:mt-20">
         <div className="flex gap-5">
           <img src="photos/gas-logo.png" alt="" className="w-14 h-14" />
           <img src="photos/uttarakhand-logo.png" alt="" className="w-14 h-14" />
@@ -38,7 +38,7 @@ const Navbar = () => {
           <img src="photos/india-logo.png" alt="" className="w-14 h-14" />
           <img src="photos/medal-batch-1.png" alt="" className="w-14 h-14" />
         </div>
-        <div className="flex gap-3 ">
+        <div className="hidden sm:flex gap-3 ">
           <div className="">
             <h1>179</h1>
             <p>Days</p>
@@ -57,7 +57,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-32 text-background-secondary mt-28 flex-col md:flex-row">
+      <div className="hidden sm:flex gap-32 text-background-secondary mt-28 flex-col md:flex-row">
         <div className="max-w-3xl">
           <h1 className="text-7xl">
             The 38th National Games, Uttarakhand 2024
