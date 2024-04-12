@@ -45,6 +45,8 @@ html,body{
     --border: 0 0% 58%;
     --input: 240 10% 84%;
     --radius: 0.5rem;
+    /* background: hsla(47, 54%, 66%, 1); */
+    --button-bg: 47 54% 66%;
   }
 }
 

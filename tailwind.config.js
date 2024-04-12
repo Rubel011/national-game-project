@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
+        button: "hsl(var(--button-bg))",
         background: {
           DEFAULT: "hsl(var(--background))",
           secondary: "hsl(var(--secondary-background))",

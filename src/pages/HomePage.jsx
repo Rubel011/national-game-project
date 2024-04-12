@@ -7,6 +7,7 @@ import TheMascot from "../components/TheMascot";
 import Conversation from "../components/Conversation";
 import Sports from "../components/Sports";
 import FollowUs from "../components/FollowUs";
+import Competition from "../components/Competition";
 
 const HomePage = () => {
   return (
@@ -34,6 +35,7 @@ const HomePage = () => {
       <Conversation />
       <Sports />
       <FollowUs />
+      <Competition />
     </div>
   );
 };

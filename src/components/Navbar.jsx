@@ -38,7 +38,7 @@ const Navbar = () => {
           <img src="photos/india-logo.png" alt="" className="w-14 h-14" />
           <img src="photos/medal-batch-1.png" alt="" className="w-14 h-14" />
         </div>
-        <div className="flex gap-3 text-background-secondary">
+        <div className="flex gap-3 ">
           <div className="">
             <h1>179</h1>
             <p>Days</p>
@@ -57,10 +57,12 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-32 text-background-secondary mt-20">
-        <div>
-          <h1>The 38th National Games, Uttarakhand 2024</h1>
-          <p>
+      <div className="flex gap-32 text-background-secondary mt-28 flex-col md:flex-row">
+        <div className="max-w-3xl">
+          <h1 className="text-7xl">
+            The 38th National Games, Uttarakhand 2024
+          </h1>
+          <p className="mt-5">
             Where fervour converges with brilliance! Immerse yourself in the
             exhilarating spectacle as athletes hailing from every corner of
             Uttarakhand vie for victory in a dazzling display of skill and
@@ -70,11 +72,11 @@ const Navbar = () => {
             the excitement and witness the enchantment of the National Games
             hosted in Uttarakhand!
           </p>
-          <button className="h-14 bg-background-secondary px-5 border rounded-[40px] text-black">
+          <button className="h-14 bg-background-secondary px-5 border rounded-[40px] text-black md:mt-10">
             Uttarakhand Unleashed
           </button>
         </div>
-        <div>
+        <div className="md:p-20">
           <div>
             <button>Live Registration</button>
             <h1>The Game Live Registration</h1>
